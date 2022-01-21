@@ -1,4 +1,3 @@
-# PrecogRITask
 
 
 # Reddit-Flair-Detector: End Goal
