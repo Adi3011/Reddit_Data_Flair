@@ -39,9 +39,9 @@ Flair
 ***Dependent Variables***
 1. Title
 2. URL
-3. Grouped Features: Title + URL
+3. Grouped Features: Title + URL /Title+url+author/title+author/url+author
 
-***Best Model:*** **53.33%** Accuracy using Linear SVM taking Title + URL as feature.
+***Best Model:*** **56.53%** Accuracy using Naive Bayes taking Title + URL as feature.
 
 *Observation :* This accuracy can be improved if more data such as Body of post and Top comments are also combined to train for classification. 
 
