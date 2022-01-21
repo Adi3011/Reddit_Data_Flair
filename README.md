@@ -59,7 +59,7 @@ Data Analysis on collected data.
 1. Out of all posts, how many were created by unique users. 
 2. Scatter plot to visualize scores gathered by each flair's posts.
 3. Scatter plot to visualize number of comments gathered by each flair's posts.
-
+ 
 
 # External resources used. 
 
