@@ -9,7 +9,7 @@ To scrape data from r/india (A subreddit on https://reddit.com/) and classify po
 # Objective 0 (Completed)
 
 To scrape data from r/india, this was made possible with the help of PRAW (Python reddit API wrapper) library which lets to scrape any public data with the help of Reddit's official API, you require an OAuth key in order to use PRAW and Reddit API.[1]
-After completion of this step, I was able to gather data for 12 different flairs, 100 posts(rows of data) for each flair. 
+After completion of this step, I was able to gather data for 12 different flairs, 2000 posts(rows of data) for each flair. 
 These 8 categories of data was analyized: 1. Title, 2. ID, 3. Flair, 4. Author/Creator of post, 5. URL, 6. No. of Comments, 7. Score(Total score after all Upvotes/ Downvotes on the post), 8. Timestamp(Date and Time in UTC). 
 
 Official documentation for PRAW can be found at: https://praw.readthedocs.io/en/latest/
@@ -19,19 +19,18 @@ Official documentation for PRAW can be found at: https://praw.readthedocs.io/en/
 3. Data was cleaned with the help of re(A python library) to clean Bad symbols and stopwords from the Title and finally saved as 'Final_formatted_data.csv' 
     To learn how work with re : https://docs.python.org/3/library/re.html
     
-4.(Pending) Stored the .csv data file into MongoDB instance (.csv -> .bson)
-
 
 # Objective 1 (Completed)
 
 Training different models with the help of Scikit-learn python library. https://scikit-learn.org/stable/index.html#
-(12 * 100)Rows of data trained using the following four models from the the Scikit-learn library.
+(12 * 2000)Rows of data trained using the following four models from the the Scikit-learn library.
 
 **Text based classification models**
 1. Naive Bayse Classifier
 2. Linear Logistic Regression
 3. Linear SVM
 4. Random Forest
+5. lstm
 
 **This data was trained using**
 
